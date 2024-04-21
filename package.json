@@ -1,0 +1,20 @@
+{
+  "name": "rate-limiter-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.51.2"
+  },
+  "dependencies": {
+    "@upstash/ratelimit": "^1.1.2",
+    "@upstash/redis": "^1.30.0",
+    "hono": "^4.2.5"
+  },
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  }
+}

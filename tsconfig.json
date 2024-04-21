@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "ES2022",
+     "lib": ["ES2022", "DOM" ],
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "strict": true
+
+  }
+}
